@@ -16,6 +16,8 @@ exports.middleware = function loginmiddleware(next, app) {
     }
 }
 ```
+where persistUser is a function that takes 2 parameters, the request object and a user JSON object and persists the username/email
+on the session or in a database. it is optional, a simple session persistance is in place.
 
 And, of course, one has to fill in the details in the lib/config.js file for the logins supported.
 
