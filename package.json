@@ -8,10 +8,10 @@
                 "email": "jajalinux@gmail.com",
                 "web": "http://bash.editia.info"
     },
-    "repositories": {
+    "repositories": [{
         "type": "git",
         "url": "https://github.com/jgabios/ringoauth.git"
-    },
+    }],
     "bugs": "https://github.com/jgabios/ringoauth/issues",
     "licenses": [{
         "type": "GNU GENERAL PUBLIC LICENSE version 3",
