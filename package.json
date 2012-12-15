@@ -1,0 +1,8 @@
+{
+    "name": "ringoauth",
+    "version": "0.0.1",
+    "description": "offers google, twitter and facebook login functionality",
+    "keywords": ["oauth", "facebook", "twitter", "google", "login"],
+    "author": "Gabriel Munteanu (http://bash.editia.info/) <jajalinux@gmail.com>",
+    "main": "./lib/ringoauth.js"
+}
