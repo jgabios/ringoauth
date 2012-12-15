@@ -1,9 +1,7 @@
-# namespace-skeleton
-You should use this in a middleware, in a stick environment.
+You should use this in a middleware, in a Stick webapp on RingoJS.
 Example of how it can be used:
 
-<code>
-
+```js
 var ringoauth = require('ringoauth');
 
 exports.middleware = function loginmiddleware(next, app) {
@@ -17,8 +15,7 @@ exports.middleware = function loginmiddleware(next, app) {
         }
     }
 }
-
-</code>
+```
 
 And, of course, one has to fill in the details in the lib/config.js file for the logins supported.
 
