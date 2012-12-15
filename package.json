@@ -1,8 +1,27 @@
 {
     "name": "ringoauth",
     "version": "0.0.1",
-    "description": "offers google, twitter and facebook login functionality",
+    "description": "Offers google, twitter and facebook login functionality for RingoJS Stick webapps",
     "keywords": ["oauth", "facebook", "twitter", "google", "login"],
-    "author": "Gabriel Munteanu (http://bash.editia.info/) <jajalinux@gmail.com>",
+    "author": {
+                "name": "Gabriel Munteanu",
+                "email": "jajalinux@gmail.com",
+                "web": "http://bash.editia.info"
+    },
+    "repositories": {
+        "type": "git",
+        "url": "https://github.com/jgabios/ringoauth.git"
+    },
+    "bugs": "https://github.com/jgabios/ringoauth/issues",
+    "licenses": [{
+        "type": "GNU GENERAL PUBLIC LICENSE version 3",
+        "url": "http://www.gnu.org/licenses/gpl.html"
+    }],
+    "engines": {
+        "ringojs": "0.8"
+    },
+    "dependencies": {
+        "stick": "0.1.0"
+    },
     "main": "./lib/ringoauth.js"
 }
