@@ -3,6 +3,7 @@
     "version": "0.0.1",
     "description": "Offers google, twitter and facebook login functionality for RingoJS Stick webapps",
     "keywords": ["oauth", "facebook", "twitter", "google", "login"],
+    "homepage": "https://github.com/jgabios/ringoauth/",
     "author": {
                 "name": "Gabriel Munteanu",
                 "email": "jajalinux@gmail.com",
